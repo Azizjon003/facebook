@@ -48,7 +48,12 @@ html {
   display: flex;
   column-gap: 5rem;
   font-size: 2.4rem;
+  align-items: center;
   color: #606770;
+}
+.icons i:hover {
+  color: #0f62df;
+  transform: scale(1.1);
 }
 .icons2 {
   display: flex;
@@ -77,6 +82,11 @@ html {
   border-radius: 50%;
   background-color: #e4e6eb;
 }
+.icons3 i:hover {
+  background-color: #0f62df;
+  color: white;
+  transform: scale(1.1);
+}
 .accounts {
   background-color: #f0f2f5;
   text-align: center;
@@ -87,6 +97,7 @@ html {
   color: #1d1f23;
 }
 .navbar {
+  margin-bottom: 1rem;
   padding: 0 3rem;
   background-color: #f0f2f5;
   display: flex;
@@ -144,8 +155,12 @@ html {
   color: #606770;
   box-shadow: 0 0 1rem #606770;
 }
-.intor-name {
+.intro .intor-name {
   font-size: 3rem;
+}
+.div12:hover {
+  transform: scale(1.1);
+  color: #0f62df;
 }
 .div12 {
   display: flex;
@@ -155,20 +170,32 @@ html {
 .grid-section {
   display: grid;
   grid-template-columns: 0.8fr 1.5fr;
-  grid-template-rows: 1fr 1fr;
   gap: 1.5rem;
   margin: 2rem 10rem;
+}
+.intro-galary {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.images-about12 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.images-section {
+  width: 100%;
 }
 
 .write-section1 {
   box-shadow: 0 0 1rem #606770;
-  width: 80%;
+  width: 100%;
   padding: 1rem;
   border-radius: 2rem;
 }
 .write-section2 {
   box-shadow: 0 0 1rem #606770;
-  width: 80%;
+  width: 100%;
   padding: 1rem;
   border-radius: 1rem;
   margin-top: 3rem;
@@ -215,6 +242,9 @@ html {
 .galary {
   box-shadow: 0 0 1rem #606770;
   padding: 1rem;
+}
+.galary img:hover {
+  transform: scale(1.1);
 }
 .galary-name {
   display: flex;
@@ -279,4 +309,22 @@ html {
   display: flex;
   align-items: center;
   gap: 1rem;
+}
+.abt-like {
+  font-size: 1.8rem;
+  color: #606770;
+  display: flex;
+  justify-content: space-evenly;
+}
+.abt-like p:hover {
+  color: #0f62df;
+  transform: scale(1.1);
+}
+.aab {
+  margin-top: 2rem;
+  justify-content: space-between;
+}
+.about {
+  box-shadow: 0 0 1rem #606770;
+  padding: 1rem 2rem;
 }
