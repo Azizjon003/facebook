@@ -136,3 +136,147 @@ html {
   background-color: #fff;
   border-radius: 1rem;
 }
+.intro {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 4rem;
+  color: #606770;
+  box-shadow: 0 0 1rem #606770;
+}
+.intor-name {
+  font-size: 3rem;
+}
+.div12 {
+  display: flex;
+  column-gap: 1rem;
+  font-size: 2rem;
+}
+.grid-section {
+  display: grid;
+  grid-template-columns: 0.8fr 1.5fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1.5rem;
+  margin: 2rem 10rem;
+}
+
+.write-section1 {
+  box-shadow: 0 0 1rem #606770;
+  width: 80%;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+.write-section2 {
+  box-shadow: 0 0 1rem #606770;
+  width: 80%;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+.write-section2 p {
+  font-size: 1.6rem;
+  display: flex;
+  gap: 5px;
+  color: #606770;
+  align-items: center;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #e4e6eb;
+}
+.write-section {
+  display: flex;
+  justify-content: space-evenly;
+}
+.write-section input {
+  width: 70%;
+  height: 4rem;
+  border-radius: 2rem;
+  border: none;
+  background-color: #e4e6eb;
+  font-size: 1.4rem;
+}
+.photos {
+  width: 80%;
+  border-top: 2px solid #606770;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+  margin-left: 8rem;
+}
+.photo {
+  padding: 1rem 0.5rem;
+  font-size: 1.6rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.galary {
+  box-shadow: 0 0 1rem #606770;
+  padding: 1rem;
+}
+.galary-name {
+  display: flex;
+  gap: 60%;
+  align-items: center;
+}
+.galary-name a {
+  font-size: 1.6rem;
+  color: #0f62df;
+}
+.glry-nm {
+  font-size: 2.4rem;
+}
+.glry-img {
+  /* display: grid;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1rem; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.ddp-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.8rem;
+}
+.div15 img {
+  width: 10%;
+}
+.div15 {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+.date {
+  font-size: 1.6rem;
+  color: #606770;
+}
+.ddp-1 i {
+  padding: 1.5rem;
+  border-radius: 50%;
+  background-color: #e4e6eb;
+}
+.abt-p1 {
+  margin-top: 2rem;
+  font-size: 1.8rem;
+  color: #606770;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+.imag {
+  width: 100%;
+}
+.like {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.like1 {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
