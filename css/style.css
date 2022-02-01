@@ -259,12 +259,12 @@ html {
   font-size: 2.4rem;
 }
 .glry-img {
-  /* display: grid;
+  display: grid;
   grid-template-columns: 0.5fr 0.5fr 0.5fr;
   grid-template-rows: 1fr 1fr 1fr;
-  gap: 1rem; */
-  display: flex;
-  flex-wrap: wrap;
+  gap: 1rem;
+  /* display: flex;
+  flex-wrap: wrap; */
   gap: 2rem;
 }
 .ddp-1 {

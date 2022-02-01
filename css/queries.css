@@ -1,0 +1,63 @@
+@media (max-width: 1200px) {
+  html {
+    font-size: 50%;
+  }
+}
+@media (max-width: 62.5em) {
+  .accounts img {
+    width: 80%;
+  }
+  .accounts-image img {
+    width: 10%;
+  }
+  .accounts-name {
+    font-size: 2.4rem;
+  }
+  .nav-icon {
+    font-size: 1.4rem;
+  }
+  .nav {
+    font-size: 1.8rem;
+  }
+  .intor-name {
+    font-size: 2.4rem;
+  }
+  .div12 {
+    font-size: 1.8rem;
+  }
+  .glry-nm {
+    font-size: 2rem;
+  }
+  .photo {
+    font-size: 1.4rem;
+  }
+  .write-section2 h1 {
+    font-size: 1.8rem;
+  }
+  .write-section2 p {
+    font-size: 1.4rem;
+  }
+  .abt-p p {
+    font-size: 1.6rem;
+  }
+  .abt-p div {
+    font-size: 1.4rem;
+  }
+  .abt-p1 {
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 56.25rem) {
+  /* html {
+    font-size: 0.4375%;
+  } */
+  .icons {
+    display: none;
+  }
+  .icons3 {
+    display: none;
+  }
+  .accounts {
+    width: 80vw;
+  }
+}
