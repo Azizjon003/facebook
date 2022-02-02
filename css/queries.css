@@ -106,3 +106,18 @@
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
+@media (max-width: 447px) {
+  html {
+    font-size: 6px;
+  }
+  .glry-img {
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+  }
+  .search {
+    display: none;
+  }
+  .nav-icon {
+    display: none;
+  }
+}
